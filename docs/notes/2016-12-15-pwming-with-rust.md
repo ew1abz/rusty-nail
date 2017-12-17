@@ -61,8 +61,11 @@ fn main() {
 }
 ```
 
-Note I think using this requires the pwm to be enabled using the capemanager and the pinmux to be set ahead of time.
-
+Using this requires the pwm to be enabled and the pinmux to be set ahead of time.
+For ```Linux beaglebone 4.4.30-ti-r64```:
+```
+config-pin P8.13 pwm
+```
 
 Resources:
 
